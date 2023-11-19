@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Travel form</title>
+</head>
+
+<body>
+    <form action="" method="get" class="travel">
+        <div class="travel">
+            <label for="name">Name-</label>
+            <input type="text" placeholder="Name" id="name" required>
+        </div>
+        <div class="travel">
+            <label for="email">Email-</label>
+            <input type="email" placeholder="email" id="email" required>
+        </div>
+        <div class="travel">
+            <label for="date">Arrival Date</label>
+            <input type="date" id="arrival_date" required>
+            <label for="date">Departure Date</label>
+            <input type="date" id="departure_date" required>
+        </div>
+        <div class="travel">
+            <label for="number">Phone Number</label>
+            <input type="number" placeholder="0000000000" id="number" value="number" minlength="10" maxlength="10">
+        </div>
+        <div class="travel">
+            <label for="picture">choose a profile picture</label>
+            <input type="file" id="file" name="picture" accept="image/png, image/jpeg/">
+        </div>
+        <div>
+            <label for="desert">what things do you like most-</label>
+            <input type="checkbox" id="desert">desert
+            <input type="checkbox" id="beach">Beach
+            <input type="checkbox" id="games">games
+        </div>
+        <fieldset>
+            <legend>Choose your favourate colour</legend>
+
+            <div>
+                <input type="radio" id="Blue" name="colour" checked value="colour1" />
+                <label for="Blue">Blue</label>
+            </div>
+
+            <div>
+                <input type="radio" id="Red" name="colour" value="colour2" />
+                <label for="Red">Red</label>
+            </div>
+            <div>
+                <input type="radio" id="Green" name="colour">
+                <label for="Green">Green</label>
+            </div>
+        </fieldset>
+        <fieldset>
+            <legend>Choose your favourate food</legend>
+            <div>
+                <input type="checkbox" name="sweets" id="sweets">
+                <label for="sweets">Gulab jamun</label>
+            </div>
+            <div>
+                <input type="checkbox" name="sweets" id="sweets">
+                <label for="sweets">Rasgulla</label>
+            </div>
+            <div>
+                <input type="checkbox" name="sweets" id="sweets">
+                <label for="sweets">Baklava</label>
+            </div>
+        </fieldset>
+        <fieldset>
+            <legend>Choose your favourite sport</legend>
+            <div>
+                <input type="radio" name="sport" id="cricket">
+                <label for="cricket">Cricket</label>
+            </div>
+            <div>
+                <input type="radio" name="sport" id="football">
+                <label for="football">Football</label>
+            </div>
+            <div>
+                <input type="radio" name="sport" id="hockey">
+                <label for="hockey">Hockey</label>
+            </div>
+
+        </fieldset>
+
+
+        <div class="travel">
+            <input type="submit" value="submit" id="submit">
+        </div>
+
+
+    </form>
